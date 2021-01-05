@@ -1,0 +1,89 @@
+  * {
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+
+
+  }
+
+  .all {
+      background-color: #E7ECF1;
+  }
+
+  header {
+      text-align: center;
+      padding: 4%;
+      line-height: 0.8em;
+  }
+
+  h1 {
+      text-transform: capitalize;
+  }
+
+  header h3 {
+      color: darkgray;
+      font-size: 0.9em;
+  }
+
+  .container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      text-align: center;
+  }
+
+  img {
+      border-radius: 50%;
+      height: 100px;
+      width: 100px;
+  }
+
+
+  .profile .about,
+  .social {
+      color: darkgrey;
+      font-size: 0.8rem;
+      margin: 10% 0;
+
+  }
+
+  .address {
+      color: darkgrey;
+      font-size: 0.7rem;
+  }
+
+  .social {
+      text-transform: capitalize;
+  }
+
+  .profile {
+      width: 320px;
+      height: auto;
+      border-radius: 1%;
+      background-color: white;
+      padding: 2%;
+      margin: 2vh;
+      box-shadow: 5px 5px rgba(133, 136, 138, 0.1);
+
+  }
+
+  .fa-twitter,
+  .fa-google {
+      border: 1px solid darkgrey;
+      padding: 2%;
+      border-radius: 50%;
+      margin: 0 2%;
+  }
+
+  .fa-facebook-f {
+      border: 1px solid darkgrey;
+      padding: 2% 3.5%;
+      border-radius: 50%;
+      margin: 0 2%;
+  }
+
+  .fa-instagram {
+      border: 1px solid darkgrey;
+      padding: 2% 2.5%;
+      border-radius: 50%;
+      margin: 0 2%;
+  }
